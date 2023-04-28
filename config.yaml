@@ -1,0 +1,15 @@
+version: "3"
+
+listen:
+  type: port
+  bind_ip: 0.0.0.0
+  port: 1234
+mongodb:
+  host: localhost
+  post: 27017
+  databse: configuration
+  auth_db: admin
+  username:
+  password:
+  components_collection: components
+  configuration_collection: configuration
